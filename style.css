@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(31, 65, 36, 0.3);
+}
+
+.main{
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 2px 2px 5px blueviolet, -3px -3px 5px blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#number{
+    font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;  
+    font-weight:bold; 
+}
+
+.character{
+    box-shadow: 2px 2px 3px red;
+    font-size: 50px;
+    text-align: center;
+    width: 60px;
+    margin: 30px auto;
+    color: rgb(80, 14, 14);
+    background-color: rgba(59, 81, 192, 0.3);
+
+}

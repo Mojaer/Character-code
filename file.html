@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div id="number">press
+
+        </div>
+
+    </div>
+    <div class="character">
+
+    </div>
+
+    <script>
+        let code = document.getElementById('number');
+        let character = document.querySelector('.character');
+
+        window.addEventListener('keypress', CharFunction)
+
+        function CharFunction(e) {
+            character.innerHTML=e.key;
+            code.innerHTML=e.charCode;
+            
+        }
+    </script>
+
+</body>
+
+</html>
